@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-size: 16px;
+  background-image: url("images/bg-intro-desktop.png");
+  background-color: #ff7a7a;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .description {
+  width: 30%;
+  margin: 0 auto;
+  color: whitesmoke;
+  margin-top: 10%;
+}
+
+.container .description h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.container .formulaire {
+  width: 50%;
+  margin: auto;
+  margin: 3em;
+}
+
+.container .formulaire__blue {
+  width: 60%;
+  background: #2a2875;
+  color: whitesmoke;
+  padding: 10px;
+  margin-bottom: 2em;
+  text-align: center;
+  border-radius: 0.8em;
+  -webkit-box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.5);
+}
+
+.container .formulaire__white {
+  background: white;
+  width: 60%;
+  -webkit-box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border: 1px solid #b9b6d3;
+  border-radius: 0.8em;
+}
+
+.container .formulaire__white input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #b9b6d3;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.container .formulaire__white #submit {
+  color: whitesmoke;
+  background: #38cc8c;
+  border: 2px solid #38cc8c;
+}
+
+.container .formulaire__white .para_span {
+  font-size: 0.8em;
+}
+
+.container .formulaire__white .para_span span {
+  color: red;
+}
+
+.container .formulaire__white .para {
+  position: relative;
+  left: 55%;
+  color: red;
+  font-size: 0.8em;
+}
+
+.error {
+  background: url("images/icon-error.svg") no-repeat right;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    display: block;
+  }
+  .container .description {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin: 2em;
+  }
+  .container .description h1 {
+    font-size: 2em;
+    font-weight: 700;
+  }
+  .container .formulaire {
+    width: 100%;
+    margin: 1em;
+  }
+  .container .formulaire__blue {
+    width: 90%;
+  }
+  .container .formulaire__white {
+    width: 90%;
+  }
+  .container .formulaire__white .para {
+    position: relative;
+    left: 37%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
